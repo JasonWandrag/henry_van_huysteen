@@ -10,7 +10,7 @@ const LandingPage = () => {
             <Heart className="memorial-heart" />
             <h1>In Loving Memory</h1>
             <h2>Henry van Huyssteen</h2>
-            <p className="dates">1945 - 2024</p>
+            <p className="dates">1972 - 2025</p>
           </div>
           
           <div className="memorial-quote">
