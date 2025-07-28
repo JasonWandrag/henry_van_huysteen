@@ -92,7 +92,8 @@ body {
 
 .hero-section {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-              url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop') center/cover;
+              url('/src/assets/homepage_banner.jpeg') center top/cover no-repeat;
+  background-size: 900px auto;
   height: 70vh;
   display: flex;
   align-items: center;

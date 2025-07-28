@@ -62,12 +62,24 @@ import photo53 from '../assets/WhatsApp Image 2025-07-28 at 7.26.46 PM.jpeg';
 import photo54 from '../assets/WhatsApp Image 2025-07-28 at 7.26.45 PM (1).jpeg';
 import photo55 from '../assets/WhatsApp Image 2025-07-28 at 7.26.45 PM.jpeg';
 
+// Import new photos from the new folder
+import newPhoto1 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.59 PM (3).jpeg';
+import newPhoto2 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.59 PM (2).jpeg';
+import newPhoto3 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.59 PM (1).jpeg';
+import newPhoto4 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.59 PM.jpeg';
+import newPhoto5 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.58 PM (2).jpeg';
+import newPhoto6 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.58 PM (1).jpeg';
+import newPhoto7 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.58 PM.jpeg';
+import newPhoto8 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.57 PM (2).jpeg';
+import newPhoto9 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.57 PM (1).jpeg';
+import newPhoto10 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.57 PM.jpeg';
+
 const SlideshowPage = () => {
   const [isPlaying, setIsPlaying] = useState(true);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  // All photos from assets folder
+  // All photos from assets folder (original + new)
   const photos = [
     { id: 1, src: photo1 },
     { id: 2, src: photo2 },
@@ -123,7 +135,18 @@ const SlideshowPage = () => {
     { id: 52, src: photo52 },
     { id: 53, src: photo53 },
     { id: 54, src: photo54 },
-    { id: 55, src: photo55 }
+    { id: 55, src: photo55 },
+    // New photos from the new folder
+    { id: 56, src: newPhoto1 },
+    { id: 57, src: newPhoto2 },
+    { id: 58, src: newPhoto3 },
+    { id: 59, src: newPhoto4 },
+    { id: 60, src: newPhoto5 },
+    { id: 61, src: newPhoto6 },
+    { id: 62, src: newPhoto7 },
+    { id: 63, src: newPhoto8 },
+    { id: 64, src: newPhoto9 },
+    { id: 65, src: newPhoto10 }
   ];
 
   const sliderSettings = {
