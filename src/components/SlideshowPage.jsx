@@ -133,7 +133,7 @@ const SlideshowPage = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: isPlaying,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     fade: true,
     cssEase: 'linear',
     beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
