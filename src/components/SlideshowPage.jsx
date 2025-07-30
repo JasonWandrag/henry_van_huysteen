@@ -74,6 +74,16 @@ import newPhoto8 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.57 PM (2)
 import newPhoto9 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.57 PM (1).jpeg';
 import newPhoto10 from '../assets/new/WhatsApp Image 2025-07-28 at 9.01.57 PM.jpeg';
 
+// Import photos from the wan folder
+import wanPhoto1 from '../assets/wan/IMG-20250730-WA0015.jpg';
+import wanPhoto2 from '../assets/wan/IMG-20250730-WA0014.jpg';
+import wanPhoto3 from '../assets/wan/IMG-20250730-WA0013.jpg';
+import wanPhoto4 from '../assets/wan/IMG-20250730-WA0012.jpg';
+import wanPhoto5 from '../assets/wan/IMG-20250730-WA0011.jpg';
+import wanPhoto6 from '../assets/wan/IMG-20250730-WA0010.jpg';
+import wanPhoto7 from '../assets/wan/IMG-20250730-WA0009.jpg';
+import wanPhoto8 from '../assets/wan/IMG-20250730-WA0007.jpg';
+
 const SlideshowPage = () => {
   const [isPlaying, setIsPlaying] = useState(true);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -146,7 +156,16 @@ const SlideshowPage = () => {
     { id: 62, src: newPhoto7 },
     { id: 63, src: newPhoto8 },
     { id: 64, src: newPhoto9 },
-    { id: 65, src: newPhoto10 }
+    { id: 65, src: newPhoto10 },
+    // Photos from the wan folder
+    { id: 66, src: wanPhoto1 },
+    { id: 67, src: wanPhoto2 },
+    { id: 68, src: wanPhoto3 },
+    { id: 69, src: wanPhoto4 },
+    { id: 70, src: wanPhoto5 },
+    { id: 71, src: wanPhoto6 },
+    { id: 72, src: wanPhoto7 },
+    { id: 73, src: wanPhoto8 }
   ];
 
   const sliderSettings = {
